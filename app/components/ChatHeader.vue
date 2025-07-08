@@ -2,7 +2,7 @@
   <div class="flex items-center justify-between px-4 h-14">
     <div class="flex items-center gap-x-4">
       <h2 class="text-xl md:text-2xl text-[var(--ui-primary)] font-bold">
-        Josh's AI Chat Demo
+        Josh's AI Chat
       </h2>
       <UTooltip
         v-if="!clearDisabled"
@@ -18,13 +18,13 @@
     </div>
     <div class="flex items-center gap-x-4">
       <ColorMode />
-      <UButton
+      <!-- <UButton
         icon="i-simple-icons-github"
         color="neutral"
         variant="ghost"
         to="/"
         target="_blank"
-      />
+      /> -->
       <UButton
         icon="i-lucide-settings"
         color="neutral"
